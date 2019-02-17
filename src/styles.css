@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+article,
+aside {
+  background: #ffeb3b;
+  border: 10px solid #9c27b0;
+  float: left;
+  padding: 10px;
+}
+
+article {
+  width: 60%;
+}
+
+aside {
+  width: 40%;
+}
